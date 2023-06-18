@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+html {
+  font-size: 1rem;
+}
+
+body {
+  min-height: 100vh;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+img,
+video,
+svg,
+picture {
+  display: block;
+  width: 100%;
+}
+
+.container {
+  width: 100%;
+  display: grid;
+  margin: 0 auto;
+}
+
+@media only screen and (min-width: 36em) {
+  .container {
+    width: 32rem;
+  }
+}
+@media only screen and (min-width: 48em) {
+  .container {
+    width: 40em;
+  }
+}
+@media only screen and (min-width: 62em) {
+  .container {
+    width: 54em;
+  }
+}
+@media only screen and (min-width: 75em) {
+  .container {
+    width: 67em;
+  }
+}
+@media only screen and (min-width: 88em) {
+  .container {
+    width: 76em;
+  }
+}/*# sourceMappingURL=main-style.css.map */

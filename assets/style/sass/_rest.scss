@@ -1,0 +1,23 @@
+html {
+    font-size: 1rem;
+}
+body{
+min-height: 100vh;
+}
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+* {
+    
+    margin: 0;
+    padding: 0;
+}
+img,
+video,
+svg,
+picture {
+    display: block;
+    width: 100%;
+}

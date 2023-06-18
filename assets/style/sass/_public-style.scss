@@ -1,0 +1,31 @@
+//CONTIANER
+.container {
+    width: 100%;
+    display: grid;
+    margin: 0 auto;
+}
+@media only screen and (min-width: $mq-bp-sm) {
+    .container {
+        width: $contaienr-w-sm;
+    }
+}
+@media only screen and (min-width: $mq-bp-md) {
+    .container {
+        width: $contaienr-w-md;
+    }
+}
+@media only screen and (min-width: $mq-bp-lg) {
+    .container {
+        width: $contaienr-w-lg;
+    }
+}
+@media only screen and (min-width: $mq-bp-xl) {
+    .container {
+        width: $contaienr-w-xl;
+    }
+}
+@media only screen and (min-width: $mq-bp-xxl) {
+    .container {
+        width: $contaienr-w-xxl;
+    }
+}
