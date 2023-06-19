@@ -1,5 +1,10 @@
 //COLOR
-
+$card-bg: hsl(244, 38%, 16%);
+$body-bg: hsl(233, 47%, 7%);
+$light-font-color:hsl(277, 64%, 61%);
+$purple-filter-color: hsla(277, 62%, 57%, 0.469);
+$title-color:hsl(0, 0%, 100%);
+$paragraph-color:  hsla(0, 0%, 100%, 0.6);
 //MQ BREAK POINTS
 $mq-bp-sm:36em;
 $mq-bp-md:48em;
@@ -7,14 +12,17 @@ $mq-bp-lg:62em;
 $mq-bp-xl:75em;
 $mq-bp-xxl:88em;
 //CONTAINER WIDTH
-$contaienr-w-sm:32rem;
-$contaienr-w-md:40em;
+$contaienr-w-sm:30rem;
+$contaienr-w-md:46em;
 $contaienr-w-lg:54em;
 $contaienr-w-xl:67em;
-$contaienr-w-xxl:76em;
+$contaienr-w-xxl:80em;
 //FONT FAMILY
 $ff-inter :  'Inter', sans-serif;
 $ff-lexend-deca: 'Lexend Deca', sans-serif;
 //FONT WEIGHT
 $fw-normal : 400;
 $fw-kinda-bold : 700;
+//FONT SIZE
+$fs-paragraph:1.2rem;
+$fs-title:calc(1.4rem + 1vw);
